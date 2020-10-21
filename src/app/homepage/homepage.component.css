@@ -1,0 +1,247 @@
+.card {
+  border-radius: 0 !important;
+}
+
+.phx-no-scroll {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}
+
+.myw-card {
+  margin: 53px 48px;
+  width: 342px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-color: #ddd;
+  -webkit-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+  height: auto;
+}
+
+.myw-card .card-header {
+  background: #ededed;
+  border-bottom: none;
+  border-radius: 1.25rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.myw-card .card-body {
+  position: relative;
+}
+
+.myw-card .card-header {
+  background: #ededed;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.myw-card .card-body {
+  position: relative;
+}
+
+.services-card {
+  margin: 53px 48px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-color: #ddd;
+  -webkit-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+  height: 540px;
+}
+
+.services-card .card-header {
+  background: #ededed;
+  border-bottom: none;
+  border-radius: 1.25rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.services-card .card-body {
+  position: relative;
+}
+
+.services-card .card-header {
+  background: #ededed;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.services-card .card-body {
+  position: relative;
+}
+
+.card-body {
+  padding: 5.25rem;
+}
+
+.card-header {
+  padding-top: 5.75rem;
+  padding-bottom: 5.75rem;
+}
+
+.btn-primary {
+  color: #000 !important;
+  background-color: #adb5bd !important;
+  border-color: #adb5bd !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn {
+  cursor: default !important;
+  border-radius: 0 !important;
+}
+
+.text {
+  text-align: end;
+}
+
+.mycard-body {
+  padding: 13.3rem;
+}
+
+.mycard-header {
+  padding-top: 0.75rem !important;
+  height: 50px;
+}
+
+.mycard {
+  top: 5px;
+  left: 5px;
+}
+
+.mycard3 {
+  top: 5px;
+  right: 10px;
+}
+
+.mycard2 {
+  top: 5px;
+  right: 2px;
+}
+
+.mycard6 {
+  bottom: 15px;
+  right: 10px;
+}
+
+.mycard5 {
+  bottom: 15px;
+  right: 2px;
+}
+
+.mycard4 {
+  bottom: 15px;
+  left: 5px;
+}
+
+.checkbox {
+  position: absolute;
+  bottom: 167px;
+  right: 0px;
+  opacity: 0
+}
+
+.checkbox1 {
+  position: absolute;
+  bottom: 190px;
+  right: 0px;
+  opacity: 0
+}
+
+.selected {
+  background-color: #8c8c8c;
+}
+
+.phx-alert-danger {
+  top: 3px;
+  position: absolute;
+  right: 2px;
+  color: #fff;
+  z-index: 9999;
+  min-width: 18rem;
+  width: 430px;
+  min-height: 45px;
+  background: #BE0101 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #BE0101;
+  opacity: 1;
+  font: normal normal 500 14px/17px Graphik;
+  border-radius: 0 !important;
+}
+
+.phx-alert-danger button.close span {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-shadow: 0 0px 0 #ffffff;
+  position: absolute;
+  top: 11px;
+  right: 8px;
+}
+
+.phx-alert-danger button.close {
+  opacity: 1 !important;
+  outline: none !important;
+}
+
+.phx-alert-danger span:focus {
+  outline: none !important;
+}
+
+.phx-dc-content {
+  width: 598px;
+  height: auto;
+  border-radius: 1rem !important;
+}
+
+.phx-myWizard {
+  background: #008 !important;
+  background-color: #008 !important;
+}
+
+.phx-model-header {
+  border-bottom: none;
+  color: #fff;
+  border-radius: 0;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: none;
+  padding: 8px;
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+  font-family: Graphik;
+  height: 50px;
+}
+
+.btn_ok {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  min-height: 2.09375rem;
+  background-color: var(--button);
+  background-image: linear-gradient(90deg, #004DFF, #00BAFF);
+  border-color: transparent;
+  color: #fff;
+  border: 0;
+  border-radius: 50rem !important;
+  min-width: 6rem;
+}
+
+.btn_ok:hover, .btn_ok.focus, .btn_ok:focus {
+  background-color: #2800ff;
+  background-image: linear-gradient(90deg, #004DFF, #00BAFF);
+  border-color: transparent;
+  color: #fff;
+}
+
+.phx-dc-body {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 0;
+}

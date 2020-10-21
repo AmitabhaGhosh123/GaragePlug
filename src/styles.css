@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+
+    overflow-x: hidden;
+}
+
+.image {
+
+    width: 111px;
+    height: 111px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Graphik;
+}
+
+.rc-close {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    border: 0;
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 6px;
+    outline: none !important;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.rc-close:after, .rc-close:before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: currentColor;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1px 0 0 -0.5rem;
+    transform: rotate(45deg);
+    opacity: 1;
+}
+
+.rc-close:after {
+    transform: rotate(-45deg);
+}
+
+.rc-close:hover:before, .rc-close:hover:after {
+    background-color: #fff;
+}

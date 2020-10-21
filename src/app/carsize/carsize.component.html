@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-12">
+        <div class="heading">CAR SIZE</div>
+        <div class="card carslist">
+            <div class="card-deck">
+                <div class="card text-center mycard" *ngFor="let car of listOfCars;let i=index"
+                    [ngClass]="{'selectedcar':car.IsChecked == true}">
+                    <div class="card-block">
+                        <h4 class="m-0">
+                            <img src="{{car.CarImage}}" width="372" height="130" />
+                            <input type="checkbox" name="carslist" [(ngModel)]="car.IsChecked" class="checkbox"
+                                (click)="selectCar($event,i)">
+                        </h4>
+                    </div>
+                    <div class="card-footer">
+                        {{car.CarName}}
+                    </div>
+                </div>
+            </div>
+            <input type="button" class="btn btn-primary" value="CONTINUE" (click)="selectedCar()">
+        </div>
+    </div>
+</div>
+
+<div class="alert alert-danger phx-alert-danger alert-dismissible fade show" role="alert" *ngIf="FailureMessage">
+    <div>
+        {{AlertMessage}}
+    </div>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="failureClose()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<div id="confirmCarSelection" class="modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content phx-dc-content">
+            <div class="modal-header phx-myWizard phx-model-header">
+                <h4 class="modal-title ml-3">Success</h4>
+                <button aria-label="Close" class="rc-close rc-panel-close" (click)="closePopUp()" data-dismiss="modal"
+                    type="button"><span aria-hidden="true" class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body phx-dc-body">
+                <div class="col-12">
+                    <p class="mb-1">Car selected successfully.Please click OK to view the list of all selected services.
+                    </p>
+                </div>
+            </div>
+            <div class="border-0 justify-content-center modal-footer py-3">
+                <button class="btn btn_ok" type="button" data-dismiss="modal" (click)="closePopUp()">
+                    Ok
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

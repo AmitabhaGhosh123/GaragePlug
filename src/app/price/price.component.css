@@ -1,0 +1,33 @@
+.allservices {
+  margin: 53px 48px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-color: #ddd;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  height: auto;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.totalpricetext {
+  float: left;
+}
+
+.amount {
+  float: right;
+}
+
+.btn-primary {
+  color: #000 !important;
+  background-color: #adb5bd !important;
+  border-color: #adb5bd !important;
+}
+
+.btn {
+  cursor: default !important;
+  border-radius: 0 !important;
+}

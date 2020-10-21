@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-12">
+        <div class="heading">YOUR SELECTED SERVICES</div>
+        <div class="card allservices">
+            <div class="card-deck">
+                <div class="card text-center" *ngFor="let service of allSelectedServices;let i=index">
+                    <div class="card-block">
+                        <h4 class="m-0">
+                            <img src="{{service.ImageName}}" width="372" height="130" />
+                        </h4>
+                    </div>
+                    <div class="card-footer">
+                        {{service.ServiceName}}
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card text-center" *ngFor="let car of allSelectedCars;let i=index">
+                    <div class="card-block">
+                        <h4 class="m-0">
+                            <img src="{{car.CarImage}}" width="372" height="130" />
+                        </h4>
+                    </div>
+                    <div class="card-footer">
+                        {{car.CarName}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="totalpricetext px-5">
+            TOTAL PRICE
+        </div>
+        <div class="amount pr-5">
+            {{totalPrice}} INR
+        </div>
+    </div>
+</div>
+
+<div class="container my-3">
+    <div class="col-12 text-center">
+        <button type="button" class="btn btn-primary">CONTINUE</button>
+    </div>
+</div>
